@@ -88,8 +88,8 @@ This repository provides you what you have to prepare to play **KKuTu**.
 	1. (Web server) `node lib/Web/cluster.js 1`
 
 #### Common
-- You MUST edit the file(`./Server/lib/sub/global.json`) to connect to your PostgreSQL database server.
-- You MUST create two files(`./Server/lib/sub/auth.json`, `./Server/lib/sub/global.json`) to turn on this server.
+- You MUST edit the `PG_PASS` of the settings file(`./Server/lib/sub/global.json`) to connect to your PostgreSQL database server.
+- You MUST create two files(`./Server/lib/sub/auth.json`, `./Server/lib/sub/global.json`) to turn on this server. This repository has the forms of the files in the same folder.
 - This repository contains some data from [WordNet](https://wordnet.princeton.edu/). Please provide users the license of WordNet when you operate this server.
 - The host `127.0.0.2` is reserved for connections between your web server and game server.
 - Once the server is successfully installed, you can do just the last step of above-mentioned guideline whenever you want to run the server.
